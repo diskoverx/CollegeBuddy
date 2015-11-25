@@ -12,14 +12,16 @@ class AboutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Changing navigation bar content color
         self.navigationController!.navigationBar.titleTextAttributes = [ NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
+        
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func sidebar(sender: UIBarButtonItem) {
